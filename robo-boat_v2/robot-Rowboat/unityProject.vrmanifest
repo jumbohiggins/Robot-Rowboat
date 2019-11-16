@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.robotrowboat.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "D:\\UnityProjects\\BDS\\LabsAlpha\\Robot-Rowboat\\robo-boat_v2\\robot-Rowboat\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "robot-Rowboat [Testing]"
+        }
+      }
+    }
+  ]
+}
