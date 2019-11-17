@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: ec368f68e2dc9b94f91d5acfd9c65676
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: tentacleWrapper:main_path
+    100004: tentacleWrapper:main_path_control
+    100006: tentacleWrapper:main_path_control_001
+    100008: tentacleWrapper:main_path_control_002
+    100010: tentacleWrapper:sub_path
+    100012: tentacleWrapper:tentacle_001
+    100014: tentacleWrapper:tentacle_cap
+    100016: tentacleWrapper:tentacle_move
+    100018: tentacleWrapper:tentacle_rotate
+    400000: //RootNode
+    400002: tentacleWrapper:main_path
+    400004: tentacleWrapper:main_path_control
+    400006: tentacleWrapper:main_path_control_001
+    400008: tentacleWrapper:main_path_control_002
+    400010: tentacleWrapper:sub_path
+    400012: tentacleWrapper:tentacle_001
+    400014: tentacleWrapper:tentacle_cap
+    400016: tentacleWrapper:tentacle_move
+    400018: tentacleWrapper:tentacle_rotate
+    2100000: lambert1
+    2300000: //RootNode
+    2300002: tentacleWrapper:main_path_control
+    2300004: tentacleWrapper:main_path_control_001
+    2300006: tentacleWrapper:main_path_control_002
+    2300008: tentacleWrapper:tentacle_001
+    2300010: tentacleWrapper:tentacle_cap
+    2300012: tentacleWrapper:tentacle_move
+    2300014: tentacleWrapper:tentacle_rotate
+    3300000: //RootNode
+    3300002: tentacleWrapper:main_path_control
+    3300004: tentacleWrapper:main_path_control_001
+    3300006: tentacleWrapper:main_path_control_002
+    3300008: tentacleWrapper:tentacle_001
+    3300010: tentacleWrapper:tentacle_cap
+    3300012: tentacleWrapper:tentacle_move
+    3300014: tentacleWrapper:tentacle_rotate
+    4300000: tentacleWrapper:placer_tentacle
+    4300002: tentacleWrapper:tentacle_move
+    4300004: tentacleWrapper:tentacle_rotate
+    4300006: tentacleWrapper:tentacle_001
+    4300008: tentacleWrapper:main_path_control
+    4300010: tentacleWrapper:main_path_control_002
+    4300012: tentacleWrapper:main_path_control_001
+    4300014: tentacleWrapper:tentacle_cap
+    7400000: SplineAnim3
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
