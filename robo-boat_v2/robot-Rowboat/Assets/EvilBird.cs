@@ -6,10 +6,10 @@ public class EvilBird : Enemy
 {
     protected override void Die()
     {
-        
+        base.Die();
     }
 
-    private void Attack()
+    private void AttackPlayer()
     {
         
     }
