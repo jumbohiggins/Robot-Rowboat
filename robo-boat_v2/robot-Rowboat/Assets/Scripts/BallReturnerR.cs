@@ -16,7 +16,7 @@ public class BallReturnerR : MonoBehaviour {
 
     private void Start()
     {
-        grabtgg.AddOnStateDownListener(TriggerHeld, handType);
+        grabtgg.AddOnStateDownListener(TriggerDown, handType);
         grabtgg.AddOnStateDownListener(TriggerUp, handType);
         //SteamVR_Input_ActionSet_Rowboat
         //.AddOnStateDownListener(TriggerDown, handType);
@@ -27,10 +27,10 @@ public class BallReturnerR : MonoBehaviour {
     {
         Debug.Log("Trigger is up");
         this.gameObject.transform.position = ReturnPoint.transform.position;
-        this.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+        //this.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
     }
 
-    public void TriggerHeld(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    public void TriggerDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
         Debug.Log("Trigger is down");        
         this.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
@@ -38,9 +38,18 @@ public class BallReturnerR : MonoBehaviour {
 
     private void Update()
     {
-        if(Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space"))
         {
             this.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
         }
     }
+
+    public void ResetPosition()
+    {
+        this.gameObject.transform.position = ReturnPoint.transform.position;
+        this.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        this.gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+    }
+
+
 }

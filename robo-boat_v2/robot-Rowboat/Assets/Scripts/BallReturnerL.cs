@@ -16,7 +16,7 @@ public class BallReturnerL : MonoBehaviour {
 
     private void Start()
     {
-        grabtgg.AddOnStateDownListener(TriggerHeld, handType);
+        grabtgg.AddOnStateDownListener(TriggerDown, handType);
         grabtgg.AddOnStateDownListener(TriggerUp, handType);
     }
 
@@ -27,7 +27,7 @@ public class BallReturnerL : MonoBehaviour {
         //this.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
     }
 
-    public void TriggerHeld(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    public void TriggerDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
         Debug.Log("Trigger is down");        
         this.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
@@ -40,4 +40,13 @@ public class BallReturnerL : MonoBehaviour {
             this.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
         }
     }
+
+    public void ResetPosition()
+    {
+        this.gameObject.transform.position = ReturnPoint.transform.position;
+        this.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        this.gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+    }
+
+
 }
