@@ -1,0 +1,295 @@
+fileFormatVersion: 2
+guid: 55ae2459a0aa4ec429cbd2db45275cc2
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Flak_barrel
+    100002: Flak_barrel.001
+    100004: Flak_barrel.002
+    100006: Flak_barrel.003
+    100008: Flak_turret
+    100010: Flak_turret.001
+    100012: Flak_turret.002
+    100014: Flak_turret.003
+    100016: Flakvierling _Barrel
+    100018: Flakvierling _Turret
+    100020: Flakzwilling2_barrel.000
+    100022: Flakzwilling2_barrel.002
+    100024: Flakzwilling2_turret.000
+    100026: Flakzwilling2_turret.002
+    100028: Lamp
+    100030: Lamp.001
+    100032: Lamp.002
+    100034: Lamp.003
+    100036: lights
+    100038: //RootNode
+    100040: T-22
+    100042: T-22_AA
+    100044: T-22_Cables
+    100046: T-22_Gear
+    100048: T-22_Guns
+    100050: T-22_Guns_Main
+    100052: T-22_Hull
+    100054: T-22_Main_barrel
+    100056: T-22_Main_barrel.001
+    100058: T-22_Main_barrel.002
+    100060: T-22_Main_barrel.003
+    100062: T-22_Main_Parts
+    100064: T-22_Main_turret
+    100066: T-22_Main_turret.001
+    100068: T-22_Main_turret.002
+    100070: T-22_Main_turret.003
+    100072: T-22_Movement
+    100074: T-22_Propellor
+    100076: T-22_Propellor.001
+    100078: T-22_Props
+    100080: T-22_Radar_1
+    100082: T-22_Radar_2
+    100084: T-22_Radar_System
+    100086: T-22_Rudder
+    100088: T-22_Rudder.001
+    100090: T-22_SideFence
+    100092: T-22_Torpedoes
+    100094: T-22_TorpedoTubes
+    100096: T-22_TorpedoTubes.001
+    100098: T-22_Vessel_1
+    100100: T-22_Vessel_2
+    400000: Flak_barrel
+    400002: Flak_barrel.001
+    400004: Flak_barrel.002
+    400006: Flak_barrel.003
+    400008: Flak_turret
+    400010: Flak_turret.001
+    400012: Flak_turret.002
+    400014: Flak_turret.003
+    400016: Flakvierling _Barrel
+    400018: Flakvierling _Turret
+    400020: Flakzwilling2_barrel.000
+    400022: Flakzwilling2_barrel.002
+    400024: Flakzwilling2_turret.000
+    400026: Flakzwilling2_turret.002
+    400028: Lamp
+    400030: Lamp.001
+    400032: Lamp.002
+    400034: Lamp.003
+    400036: lights
+    400038: T-22
+    400040: //RootNode
+    400042: T-22_AA
+    400044: T-22_Cables
+    400046: T-22_Gear
+    400048: T-22_Guns
+    400050: T-22_Guns_Main
+    400052: T-22_Hull
+    400054: T-22_Main_barrel
+    400056: T-22_Main_barrel.001
+    400058: T-22_Main_barrel.002
+    400060: T-22_Main_barrel.003
+    400062: T-22_Main_Parts
+    400064: T-22_Main_turret
+    400066: T-22_Main_turret.001
+    400068: T-22_Main_turret.002
+    400070: T-22_Main_turret.003
+    400072: T-22_Movement
+    400074: T-22_Propellor
+    400076: T-22_Propellor.001
+    400078: T-22_Props
+    400080: T-22_Radar_1
+    400082: T-22_Radar_2
+    400084: T-22_Radar_System
+    400086: T-22_Rudder
+    400088: T-22_Rudder.001
+    400090: T-22_SideFence
+    400092: T-22_Torpedoes
+    400094: T-22_TorpedoTubes
+    400096: T-22_TorpedoTubes.001
+    400098: T-22_Vessel_1
+    400100: T-22_Vessel_2
+    2100000: Mat_T-22_Rudder
+    2100002: Mat_T-22_Propellor
+    2100004: Mat_T-22_Radar_1
+    2100006: Mat_Flakzwilling_3
+    2100008: Mat_AA_Flak.001
+    2100010: Mat_Flakvierling
+    2100012: Mat_T-22_Main
+    2100014: Mat_T-22_TorpedoTube
+    2100016: Mat_T-22_Props
+    2100018: Mat_T-22_Hull
+    2100020: Mat_T-22_Vessel
+    2100022: Mat_T-22_SideFence
+    2300000: Flak_barrel
+    2300002: Flak_barrel.001
+    2300004: Flak_barrel.002
+    2300006: Flak_barrel.003
+    2300008: Flak_turret
+    2300010: Flak_turret.001
+    2300012: Flak_turret.002
+    2300014: Flak_turret.003
+    2300016: Flakvierling _Barrel
+    2300018: Flakvierling _Turret
+    2300020: Flakzwilling2_barrel.000
+    2300022: Flakzwilling2_barrel.002
+    2300024: Flakzwilling2_turret.000
+    2300026: Flakzwilling2_turret.002
+    2300028: T-22_Cables
+    2300030: T-22_Hull
+    2300032: T-22_Main_barrel
+    2300034: T-22_Main_barrel.001
+    2300036: T-22_Main_barrel.002
+    2300038: T-22_Main_barrel.003
+    2300040: T-22_Main_turret
+    2300042: T-22_Main_turret.001
+    2300044: T-22_Main_turret.002
+    2300046: T-22_Main_turret.003
+    2300048: T-22_Propellor
+    2300050: T-22_Propellor.001
+    2300052: T-22_Props
+    2300054: T-22_Radar_1
+    2300056: T-22_Radar_2
+    2300058: T-22_Rudder
+    2300060: T-22_Rudder.001
+    2300062: T-22_SideFence
+    2300064: T-22_TorpedoTubes
+    2300066: T-22_TorpedoTubes.001
+    2300068: T-22_Vessel_1
+    2300070: T-22_Vessel_2
+    3300000: Flak_barrel
+    3300002: Flak_barrel.001
+    3300004: Flak_barrel.002
+    3300006: Flak_barrel.003
+    3300008: Flak_turret
+    3300010: Flak_turret.001
+    3300012: Flak_turret.002
+    3300014: Flak_turret.003
+    3300016: Flakvierling _Barrel
+    3300018: Flakvierling _Turret
+    3300020: Flakzwilling2_barrel.000
+    3300022: Flakzwilling2_barrel.002
+    3300024: Flakzwilling2_turret.000
+    3300026: Flakzwilling2_turret.002
+    3300028: T-22_Cables
+    3300030: T-22_Hull
+    3300032: T-22_Main_barrel
+    3300034: T-22_Main_barrel.001
+    3300036: T-22_Main_barrel.002
+    3300038: T-22_Main_barrel.003
+    3300040: T-22_Main_turret
+    3300042: T-22_Main_turret.001
+    3300044: T-22_Main_turret.002
+    3300046: T-22_Main_turret.003
+    3300048: T-22_Propellor
+    3300050: T-22_Propellor.001
+    3300052: T-22_Props
+    3300054: T-22_Radar_1
+    3300056: T-22_Radar_2
+    3300058: T-22_Rudder
+    3300060: T-22_Rudder.001
+    3300062: T-22_SideFence
+    3300064: T-22_TorpedoTubes
+    3300066: T-22_TorpedoTubes.001
+    3300068: T-22_Vessel_1
+    3300070: T-22_Vessel_2
+    4300000: T-22_Rudder.001
+    4300002: T-22_Propellor.001
+    4300004: T-22_Radar_2
+    4300006: T-22_Radar_1
+    4300008: Flakzwilling2_turret.000
+    4300010: Flakzwilling2_barrel.000
+    4300012: Flak_turret.003
+    4300014: Flak_barrel.003
+    4300016: Flakvierling _Turret
+    4300018: Flakvierling _Barrel
+    4300020: T-22_Main_turret.003
+    4300022: T-22_Main_barrel.003
+    4300024: T-22_TorpedoTubes.001
+    4300026: T-22_Cables
+    4300028: T-22_Props
+    4300030: T-22_Hull
+    4300032: T-22_Vessel_2
+    4300034: T-22_Vessel_1
+    4300036: T-22_SideFence
+    9500000: //RootNode
+    10800000: Lamp
+    10800002: Lamp.001
+    10800004: Lamp.002
+    10800006: Lamp.003
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
