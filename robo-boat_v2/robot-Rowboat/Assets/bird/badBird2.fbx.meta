@@ -1,29 +1,169 @@
 fileFormatVersion: 2
 guid: 8a6867324dd28c447bf1c6b40fb7996c
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable:
-  - first:
-      74: 7902312874539821934
-    second: WING_L|WING_L|Take 001|BaseLayer
-  - first:
-      74: 2369254754802985722
-    second: WING_L|WING_R|Take 001|BaseLayer
-  - first:
-      74: 4392430114373549153
-    second: WING_R|WING_L|Take 001|BaseLayer
-  - first:
-      74: 9008367369503429145
-    second: WING_R|WING_R|Take 001|BaseLayer
-  - first:
-      74: 5862543501114407046
-    second: BirdFly
-  - first:
-      74: 1961501279853846102
-    second: Armature|WING_L|Take 001|BaseLayer
-  - first:
-      74: 9199823949144161817
-    second: Armature|WING_R|Take 001|BaseLayer
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ANKLE_L
+    100002: ANKLE_L.001
+    100004: Armature
+    100006: //RootNode
+    100008: BEAK
+    100010: BEAK 1
+    100012: BEAK_TIP
+    100014: BEAK_TIP_end
+    100016: BODY
+    100018: BODY.001
+    100020: F_L_1
+    100022: F_L_2
+    100024: F_L_3
+    100026: F_R_1
+    100028: F_R_2
+    100030: F_R_3
+    100032: FEATHER_A_L
+    100034: FEATHER_A_R
+    100036: FEATHER_B_L
+    100038: FEATHER_B_R
+    100040: FEATHER_C_L
+    100042: FEATHER_C_R
+    100044: FOOT_L
+    100046: FOOT_L.001
+    100048: HEAD
+    100050: HEAD_TIIP
+    100052: Hmmm
+    100054: Hmmm_end
+    100056: L_FOOT
+    100058: LEG_L
+    100060: LEG_L1
+    100062: MAINBODY
+    100064: NECK
+    100066: OkThen
+    100068: OkThen_end
+    100070: PlsNo
+    100072: PlsNo_end
+    100074: R_FOOT
+    100076: TAIL_1
+    100078: TAIL_2
+    100080: TAIL_TIP
+    100082: TAIL_TIP_end
+    100084: TOE_TIP_L
+    100086: TOE_TIP_L.001
+    100088: TOE_TIP_L.001_end
+    100090: TOE_TIP_L_end
+    100092: uhh
+    100094: uhh_end
+    100096: Why
+    100098: Why_end
+    100100: WING_BASE_L
+    100102: WING_BASE_L1
+    100104: WING_END_L
+    100106: WING_END_L.001
+    100108: WING_L
+    100110: WING_L.001
+    100112: WING_R
+    100114: WING_R.001
+    100116: WING_TIP_L
+    100118: WING_TIP_L.001
+    100120: Wow
+    100122: Wow_end
+    400000: ANKLE_L
+    400002: ANKLE_L.001
+    400004: Armature
+    400006: //RootNode
+    400008: BEAK
+    400010: BEAK 1
+    400012: BEAK_TIP
+    400014: BEAK_TIP_end
+    400016: BODY
+    400018: BODY.001
+    400020: F_L_1
+    400022: F_L_2
+    400024: F_L_3
+    400026: F_R_1
+    400028: F_R_2
+    400030: F_R_3
+    400032: FEATHER_A_L
+    400034: FEATHER_A_R
+    400036: FEATHER_B_L
+    400038: FEATHER_B_R
+    400040: FEATHER_C_L
+    400042: FEATHER_C_R
+    400044: FOOT_L
+    400046: FOOT_L.001
+    400048: HEAD
+    400050: HEAD_TIIP
+    400052: Hmmm
+    400054: Hmmm_end
+    400056: L_FOOT
+    400058: LEG_L
+    400060: LEG_L1
+    400062: MAINBODY
+    400064: NECK
+    400066: OkThen
+    400068: OkThen_end
+    400070: PlsNo
+    400072: PlsNo_end
+    400074: R_FOOT
+    400076: TAIL_1
+    400078: TAIL_2
+    400080: TAIL_TIP
+    400082: TAIL_TIP_end
+    400084: TOE_TIP_L
+    400086: TOE_TIP_L.001
+    400088: TOE_TIP_L.001_end
+    400090: TOE_TIP_L_end
+    400092: uhh
+    400094: uhh_end
+    400096: Why
+    400098: Why_end
+    400100: WING_BASE_L
+    400102: WING_BASE_L1
+    400104: WING_END_L
+    400106: WING_END_L.001
+    400108: WING_L
+    400110: WING_L.001
+    400112: WING_R
+    400114: WING_R.001
+    400116: WING_TIP_L
+    400118: WING_TIP_L.001
+    400120: Wow
+    400122: Wow_end
+    2100000: MIKE_MAT
+    4300000: L_FOOT
+    4300002: BODY.001
+    4300004: WING_L.001
+    4300006: F_L_2
+    4300008: F_R_1
+    4300010: F_R_3
+    4300012: BEAK
+    4300014: R_FOOT
+    4300016: F_L_1
+    4300018: F_L_3
+    4300020: WING_R.001
+    4300022: F_R_2
+    7400000: WING_L|WING_L|Take 001|BaseLayer
+    7400002: WING_L|WING_R|Take 001|BaseLayer
+    7400004: WING_R|WING_L|Take 001|BaseLayer
+    7400006: WING_R|WING_R|Take 001|BaseLayer
+    7400008: BirdFlap
+    7400010: Armature|WING_L|Take 001|BaseLayer
+    7400012: Armature|WING_R|Take 001|BaseLayer
+    7400014: Chill
+    7400016: takeOff
+    7400018: Glide
+    7400020: Dive
+    9500000: //RootNode
+    13700000: BEAK
+    13700002: BODY.001
+    13700004: F_L_1
+    13700006: F_L_2
+    13700008: F_L_3
+    13700010: F_R_1
+    13700012: F_R_2
+    13700014: F_R_3
+    13700016: L_FOOT
+    13700018: R_FOOT
+    13700020: WING_L.001
+    13700022: WING_R.001
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -43,7 +183,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -53,127 +192,66 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: WING_L|WING_L|Take 001|BaseLayer
-      takeName: WING_L|WING_L|Take 001|BaseLayer
-      internalID: 0
-      firstFrame: 367
-      lastFrame: 437
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: WING_L|WING_R|Take 001|BaseLayer
-      takeName: WING_L|WING_R|Take 001|BaseLayer
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 448
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: WING_R|WING_L|Take 001|BaseLayer
-      takeName: WING_R|WING_L|Take 001|BaseLayer
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 448
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: WING_R|WING_R|Take 001|BaseLayer
-      takeName: WING_R|WING_R|Take 001|BaseLayer
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 448
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: BirdFly
+      name: BirdFlap
       takeName: Armature|Armature|Take 001|BaseLayer
-      internalID: 0
       firstFrame: 367
-      lastFrame: 437
+      lastFrame: 408
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Chill
+      takeName: Armature|Armature|Take 001|BaseLayer
+      firstFrame: 0
+      lastFrame: 352
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: takeOff
+      takeName: Armature|Armature|Take 001|BaseLayer
+      firstFrame: 355
+      lastFrame: 397
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -198,18 +276,17 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|WING_L|Take 001|BaseLayer
-      takeName: Armature|WING_L|Take 001|BaseLayer
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 448
+      name: Glide
+      takeName: Armature|Armature|Take 001|BaseLayer
+      firstFrame: 399
+      lastFrame: 418
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -227,18 +304,17 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|WING_R|Take 001|BaseLayer
-      takeName: Armature|WING_R|Take 001|BaseLayer
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 448
+      name: Dive
+      takeName: Armature|Armature|Take 001|BaseLayer
+      firstFrame: 434
+      lastFrame: 449
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -261,8 +337,6 @@ ModelImporter:
     globalScale: 50
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -270,13 +344,10 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -288,14 +359,10 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -305,8 +372,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.5
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
