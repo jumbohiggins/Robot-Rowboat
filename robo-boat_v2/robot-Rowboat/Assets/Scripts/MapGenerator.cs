@@ -18,12 +18,27 @@ public class MapGenerator : MonoBehaviour
     [SerializeField] private float roundTime;
     [SerializeField] private int beginningBufferEvents;
     [SerializeField] private int numEvents;
-    [SerializeField] private Transform player;
+    public Transform player;
     
     private float currTime;
     private bool gameOver;
     
     private HashSet<int> spawnedPositions = new HashSet<int>();
+    
+    private static MapGenerator _instance;
+
+    public static MapGenerator Instance => _instance;
+
+
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(gameObject);
+        } else {
+            _instance = this;
+        }
+    }
     
     private void Start()
     {

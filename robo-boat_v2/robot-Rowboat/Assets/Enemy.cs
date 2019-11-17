@@ -10,9 +10,16 @@ public class Enemy : MonoBehaviour
 	private int _currHealth;
 	private bool canBeAttacked = true;
 	
+	
 	// Use this for initialization
 	void Start () {
 		_currHealth = health;
+		EnemyStart();
+	}
+
+	protected virtual void EnemyStart()
+	{
+		
 	}
 	
 	void OnTriggerEnter(Collider other)
