@@ -67,7 +67,8 @@ public class MapGenerator : MonoBehaviour
     public void SpawnEventAtPlayer()
     {
         GameObject toSpawn = PickEvent();
-        Instantiate(toSpawn, player.position, toSpawn.transform.rotation);
+        GameObject spawned = Instantiate(toSpawn, player.position, toSpawn.transform.rotation);
+        spawned.transform.parent = player.transform;
     }
     
     public List<int> GetNeighbors(int x, int y, int xMax, int yMax)
