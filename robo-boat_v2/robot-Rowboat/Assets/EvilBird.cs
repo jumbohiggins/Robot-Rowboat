@@ -25,14 +25,12 @@ public class EvilBird : Enemy
         StartCoroutine(MoveAndAttack());
         target = transform.position;
         oldPos = target;
-        Debug.Log("init target" + target);
     }
 
     public void Update()
     {
         float step = speed * Time.deltaTime; // calculate distance to move
         transform.position = Vector3.MoveTowards(transform.position, target + currOffset, step);
-        Debug.Log("target" + target);
         LookAtPlayer();
         // Check if the position of the cube and sphere are approximately equal.
         if (Vector3.Distance(transform.position, target) < 0.001f)
@@ -56,7 +54,7 @@ public class EvilBird : Enemy
 
     private void Movement()
     {
-        Transform playerTransform = MapGenerator.Instance.player;
+       // Transform playerTransform = MapGenerator.Instance.player;
         Vector3 randomPos = new Vector3(Random.Range(-1f,1f), Random.Range(-1f,1f), Random.Range(-1f,1f));
         float scaleFactor =
             jitterSpeed;// * Vector3.Dot((playerTransform.position - transform.position).normalized,randomPos.normalized);
